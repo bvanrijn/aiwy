@@ -22,7 +22,7 @@ def make_comment_text(ut):
     ignore_message = COMPOSE_BODY.format(action=BOT_IGNORE_ACTION)
 
     footer = "---\n^^" + make_subscript(
-        "I'm a bot - {why} - {ignore}".format(
+        "I'm a bot - {why} - {ignore} - {source}".format(
             why=link(
                 "Why?",
                 "https://np.reddit.com/user/amp-is-watching-you/comments/970p7j/why_did_i_build_this_bot/",
@@ -31,6 +31,7 @@ def make_comment_text(ut):
                 "Ignore me",
                 f"https://np.reddit.com/message/compose/?to=amp-is-watching-you&subject=ignore&message={quote(ignore_message)}",
             ),
+            source=link("Source code", "https://github.com/bvanrijn/aiwy"),
         )
     )
 
