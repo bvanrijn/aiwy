@@ -106,7 +106,7 @@ def main():
 
             if (
                 "You've been banned from participating in " in subject
-                and message.author is None  # noqa: W503
+                and message.author is None
             ) or ("nab " in subject and message.author.name == env.admin):
                 subreddit = SUBREDDIT_REGEX.findall(subject)[0]
 
@@ -141,6 +141,6 @@ if __name__ == "__main__":
     while True:
         try:
             main()
-        except Exception as e:  # noqa: E722
+        except Exception as e:
             logger.warning(e)
             time.sleep(10 * 60)

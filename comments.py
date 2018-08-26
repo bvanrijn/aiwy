@@ -68,6 +68,6 @@ if __name__ == "__main__":
     while True:
         try:
             main()
-        except Exception as e:  # noqa: E722
+        except Exception as e:
             logger.warning(e)
             time.sleep(10 * 60)
