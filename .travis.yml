@@ -1,0 +1,32 @@
+language: python
+
+sudo: false
+
+branches:
+  - master
+
+python:
+  - "3.6"
+  - "3.6-dev"
+  - "3.7"
+  - "3.7-dev"
+
+install:
+  - pip install black flake8 pytest
+
+script:
+# See https://github.com/PyCQA/pycodestyle/issues/728
+# - flake8 --ignore=E501,W503,E722 --statistics
+  - black --check --verbose .
+  - py.test --verbose --showlocals --full-trace --junit-xml=/dev/null .
+
+env:
+matrix:
+  allow_failures:
+    - python: "3.6"
+    - python: "3.6-dev"
+    - python: "3.7-dev"
+
+  fast_finish: true
+
+cache: pip

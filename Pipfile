@@ -20,3 +20,6 @@ python_version = "3.7"
 comments = "python comments.py"
 submissions = "python submissions.py"
 ignore = "python ignore.py"
+
+[pipenv]
+allow_prereleases = true
