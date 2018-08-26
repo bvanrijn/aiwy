@@ -17,10 +17,10 @@ install:
   - pip install black flake8 pytest praw
 
 script:
- # See https://github.com/PyCQA/pycodestyle/issues/728
- - flake8 --ignore=E501,W503,E722 --statistics
- - black --check --verbose .
- - py.test --verbose -k "not TestFindURLsFunction" --showlocals --full-trace --junit-xml=/dev/null .
+  # See https://github.com/PyCQA/pycodestyle/issues/728
+  - flake8 --ignore=E501,W503,E722 --statistics
+  - black --check --verbose .
+# - py.test --verbose -k "not TestFindURLsFunction" --showlocals --full-trace --junit-xml=/dev/null .
 
 env:
 matrix:
