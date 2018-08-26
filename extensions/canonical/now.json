@@ -1,0 +1,8 @@
+{
+    "name": "canonical",
+    "alias": "canonical",
+    "files": [
+        "package.json",
+        "index.js"
+    ]
+}

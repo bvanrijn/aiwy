@@ -1,0 +1,21 @@
+{
+    "python.pythonPath": "/Users/barend/.local/share/virtualenvs/aiwy-LatHLcY9/bin/python",
+    "editor.wordWrap": "wordWrapColumn",
+    "python.linting.flake8Args": [
+        "--ignore=E501,W503,E722"
+    ],
+    "python.unitTest.pyTestArgs": [
+        "-x",
+        "-vvv",
+        "--showlocals",
+        "--full-trace",
+        "--junit-xml=/dev/null",
+        "."
+    ],
+    "python.unitTest.unittestEnabled": false,
+    "python.unitTest.nosetestsEnabled": false,
+    "python.unitTest.pyTestEnabled": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": true
+    }
+}

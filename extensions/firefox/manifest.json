@@ -1,0 +1,21 @@
+{
+    "manifest_version": 2,
+    "name": "NoAMP",
+    "version": "0.1.0",
+    "description": "Replaces AMP URLs with their non-AMP counterparts on the fly.",
+    "permissions": [
+        "https://canonical.now.sh/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*/*"
+            ],
+            "all_frames": true,
+            "js": [
+                "axios.min.js",
+                "script.js"
+            ]
+        }
+    ]
+}

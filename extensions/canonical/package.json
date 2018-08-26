@@ -1,0 +1,11 @@
+{
+    "dependencies": {
+        "micro": "9.3.3",
+        "axios": "0.18.0",
+        "cheerio": "1.0.0-rc.2"
+    },
+    "main": "index.js",
+    "scripts": {
+        "start": "micro"
+    }
+}

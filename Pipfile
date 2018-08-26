@@ -1,0 +1,22 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+praw = "*"
+requests = "*"
+"beautifulsoup4" = "*"
+
+[dev-packages]
+black = "*"
+"flake8" = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.7"
+
+[scripts]
+comments = "python comments.py"
+submissions = "python submissions.py"
+ignore = "python ignore.py"
