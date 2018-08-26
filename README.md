@@ -1,4 +1,10 @@
-# AMP Is Watching You [![Build Status](https://travis-ci.org/bvanrijn/aiwy.svg?branch=master)](https://travis-ci.org/bvanrijn/aiwy)
+# AMP Is Watching You
+
+<p align="center">
+    <a href="https://travis-ci.org/bvanrijn/aiwy"><img src="https://travis-ci.org/bvanrijn/aiwy.svg?branch=master" alt="Build status"></a>
+    <a href="https://github.com/ambv/black"><img src="https://img.shields.io/badge/code%20style-black-000000.svg" alt="Code style: black"></a>
+</p>
+
 
 The [amp-is-watching-you Reddit bot](https://old.reddit.com/u/amp-is-watching-you) replaces AMP links on Reddit with their non-AMP counterparts, which is better for privacy.
 
