@@ -2,3 +2,4 @@ env.py
 __pycache__
 .pytest_cache
 pip_ready.py
+ignore.json

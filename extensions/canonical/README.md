@@ -1,6 +1,6 @@
 # Canonical
 
-Canonical is a server that facilitates fast lookups of ```<link rel="canonical" href="...">` values.
+Canonical is a server that facilitates fast lookups of `<link rel="canonical" href="...">` values.
 A public instance is running at https://canonical.now.sh.
 
 ## Usage

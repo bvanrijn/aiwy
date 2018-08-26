@@ -39,3 +39,7 @@ $ pipenv run comments
 $ pipenv run submissions
 $ pipenv run ignore
 ```
+
+## Troubleshooting
+
+If you get an error `ModuleNotFoundError: No module named '_ctypes'` while using `pipenv install`, you might need to [install some packages](https://stackoverflow.com/a/41310760).
