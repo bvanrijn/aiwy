@@ -14,7 +14,7 @@ $ npm run start
 And then:
 
 ```bash
-$ curl -d '{"url": "http://amp.example.com"}" localhost:443
+$ curl -d '{"url": "http://amp.example.com"}' localhost:443
 ```
 
 and you get back:
