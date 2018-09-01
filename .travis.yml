@@ -14,7 +14,7 @@ python:
   - "3.7-dev"
 
 install:
-  - pip install black flake8 pytest praw
+  - pip install black flake8 pytest praw isort
 
 script:
   # See https://github.com/PyCQA/pycodestyle/issues/728

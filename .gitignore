@@ -3,3 +3,4 @@ __pycache__
 .pytest_cache
 pip_ready.py
 ignore.json
+node_modules

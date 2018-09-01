@@ -1,8 +1,10 @@
 {
     "dependencies": {
-        "micro": "9.3.3",
         "axios": "0.18.0",
-        "cheerio": "1.0.0-rc.2"
+        "cheerio": "1.0.0-rc.2",
+        "micro": "9.3.3",
+        "morgan": "^1.9.0",
+        "pify": "^4.0.0"
     },
     "main": "index.js",
     "scripts": {
