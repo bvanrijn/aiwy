@@ -16,7 +16,7 @@ arg@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/arg/-/arg-2.0.0.tgz#c06e7ff69ab05b3a4a03ebe0407fac4cba657545"
 
-axios@0.18.0:
+axios@^0.18.0:
   version "0.18.0"
   resolved "http://registry.npmjs.org/axios/-/axios-0.18.0.tgz#32d53e4851efdc0a11993b6cd000789d70c05102"
   dependencies:
@@ -45,7 +45,7 @@ chalk@2.4.0:
     escape-string-regexp "^1.0.5"
     supports-color "^5.3.0"
 
-cheerio@1.0.0-rc.2:
+cheerio@^1.0.0-rc.2:
   version "1.0.0-rc.2"
   resolved "https://registry.yarnpkg.com/cheerio/-/cheerio-1.0.0-rc.2.tgz#4b9f53a81b27e4d5dac31c0ffd0cfa03cc6830db"
   dependencies:
@@ -208,7 +208,7 @@ lodash@^4.15.0:
   version "4.17.10"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.10.tgz#1b7793cf7259ea38fb3661d4d38b3260af8ae4e7"
 
-micro@9.3.3:
+micro@^9.3.3:
   version "9.3.3"
   resolved "https://registry.yarnpkg.com/micro/-/micro-9.3.3.tgz#32728c7be15e807691ead85da27fd8117a8bca24"
   dependencies:
