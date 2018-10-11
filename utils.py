@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 from praw.models import Comment, Submission
 
 AMP_REGEX = re.compile(
-    r"http.?://(|.+\.)(?<!(developer)\.)google.[a-z.]+/amp/(?:s/)?(.*)", re.IGNORECASE | re.MULTILINE
+    r"http.?://(|.+\.)(?<!(developer)\.)google\.[a-z.]+/amp/(?:s/)?(.*)", re.IGNORECASE | re.MULTILINE
     #r"google[a-z.]+/amp/(?:s/)?(.*)", re.IGNORECASE | re.MULTILINE
 )  # https://regex101.com/r/92WOyk/1
 
