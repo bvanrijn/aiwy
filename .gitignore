@@ -4,3 +4,4 @@ __pycache__
 pip_ready.py
 ignore.json
 node_modules
+.DS_Store

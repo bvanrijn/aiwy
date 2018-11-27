@@ -5,7 +5,7 @@ name = "pypi"
 
 [packages]
 praw = "*"
-requests = "*"
+requests = ">=2.20.0"
 "beautifulsoup4" = "*"
 
 [dev-packages]

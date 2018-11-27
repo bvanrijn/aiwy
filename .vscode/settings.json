@@ -1,5 +1,5 @@
 {
-    "python.pythonPath": "/Users/barend/.local/share/virtualenvs/aiwy-LatHLcY9/bin/python",
+    "python.pythonPath": "/Users/barend/.local/share/virtualenvs/aiwy-rlB9NnjE/bin/python",
     "editor.wordWrap": "wordWrapColumn",
     "python.linting.flake8Args": [
         "--ignore=E501,W503,E722"
